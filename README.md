@@ -13,4 +13,4 @@ At the time of this writing, there still was a debate about wether to add an opt
 * pip
 
 #### How to run
-Double click pipUpdateAll.py to update every outdate python module
+Double click pipUpdateAll.py to update every outdated python module
