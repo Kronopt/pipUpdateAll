@@ -4,6 +4,8 @@ The missing "pip install --upgrade ALL" feature missing from pip
 This script basically checks for outdated modules using `pip list --outdated`, parses the output to only show relevant
 information (specifically `name`, `current_version` and `new_version`) and then updates all detected modules using `pip install -U module_1 module_2 ...`
 
+At the time of this writing, there still was a debate about wether to add an option like this to pip (at https://github.com/pypa/pip/issues/59). So while that option isn't officialy implemented, feel free to use this script.
+
 #### Dependencies
 * Python 2.7
 * pip
