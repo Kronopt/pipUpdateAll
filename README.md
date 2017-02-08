@@ -14,3 +14,6 @@ At the time of this writing, there still was a debate about wether to add an opt
 
 #### How to run
 Double click pipUpdateAll.py to update every outdated python module
+
+#### Note
+If you get a pip related error it's probably because you have an outdated version of pip. Outdated versions may still not have implemented the necessary options for this script to work
