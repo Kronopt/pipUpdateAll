@@ -2,7 +2,7 @@
 # coding: utf-8
 
 """
-PIPUPDATEALL
+PIP UPDATE ALL
 Updates outdated python modules using pip
 Checks outdated modules using "pip list --outdated --format columns", parses that column to only show relevant
 information (name, current version, new version) and then updates all detected modules using "pip install -U" followed
